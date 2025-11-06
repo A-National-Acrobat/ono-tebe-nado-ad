@@ -74,7 +74,7 @@
   text-transform: uppercase;
   line-height: 1.15;
   letter-spacing: 0.3em;
-  margin-bottom: 135px;
+  margin-bottom: 106px;
 }
 
 .aligned-text {
@@ -209,7 +209,7 @@
   display: grid;
   grid-template-columns: 430px 1fr;
   gap: 25px;
-  padding: 0 50px 180px;
+  padding: 0 24px 180px 24px;
 }
 
 .about__logo {
