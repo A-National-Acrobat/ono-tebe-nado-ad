@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px;
+  padding: 92px 50px 96px 50px;
 }
 
 .header__menu {
@@ -35,8 +35,9 @@
 }
 
 .header__address {
+  max-width: 98px;
   justify-self: end;
-  font-style: normal;
+  font-style: normal; 
   font-size: 18px;
   text-underline-offset: 4px;
   line-height: 1.35;
@@ -123,7 +124,7 @@
 }
 
 .lots {
-  padding: 180px 50px;
+  margin: 180px 24px 120px 24px;
 }
 
 .lots__heading {
@@ -207,9 +208,10 @@
 
 .about {
   display: grid;
-  grid-template-columns: 430px 1fr;
+  grid-template-columns: 312px 1fr;
   gap: 25px;
-  padding: 0 24px 180px 24px;
+  margin: 0 24px 180px 24px;
+  padding: 35px 0px 0px 47px;
 }
 
 .about__logo {
@@ -220,7 +222,6 @@
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin: 0 auto;
 }
 
 .about__logo-image {
@@ -237,7 +238,7 @@
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 25px;
-}
+} 
 
 .about__text:last-child {
   margin-bottom: 0;
@@ -246,7 +247,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 50px 90px;
+  padding: 0 50px 82px;
 }
 
 .footer__address {
